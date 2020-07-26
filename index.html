@@ -47,6 +47,29 @@
 </head>
 <body id="default_theme" class="it_service">
   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCD9Dk--sPW4LBe-VsPgh4MN7cgq_PE8Co",
+    authDomain: "certimate-e215b.firebaseapp.com",
+    databaseURL: "https://certimate-e215b.firebaseio.com",
+    projectId: "certimate-e215b",
+    storageBucket: "certimate-e215b.appspot.com",
+    messagingSenderId: "643625718488",
+    appId: "1:643625718488:web:e5360e2579c3a00cc73dad",
+    measurementId: "G-D2ZK5QR4YK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="/__/firebase/7.17.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
